@@ -44,13 +44,13 @@ Runs in interactive mode if started without arguments.
 
 Command:
 
-    >p2t.exe www.google.com -l 1400 -c 5 -i 2000 -log -follow -d -tt 1183030956:AAG3-S4-v4NowRpyIr1KNgKnQZsobGyCa-A -tc 374137042 -te
+    >p2t.exe www.google.com -l 1400 -c 5 -i 2000 -log -follow -d
 
 Console output:
 
     Using the following file to log: C:\Temp\p2t_16-01-2022_20-59-11_www.google.com.log
     
-    p2t.exe v1.2.0.0
+    p2t.exe v1.2.0.1
     Ping started. Used options:
      Address: www.google.com
      Is address: False
@@ -60,21 +60,19 @@ Console output:
      Interval: 2000 ms
      Don't Fragment: False
      Follow the Name: True
-     Add date to each ping output: False
+     Add date to each ping output: True
      Errors only: False
      No trace: False
-     Using Telegram bot to send errors: True
-     Telegram bot channel id: 374137042
-     Telegram, only send errors: True
+     Using Telegram bot to send errors: False
     
-    [20:59:11.737]  Reply from: 142.250.185.68  fragment=True  bytes=1400  time=44ms  TTL=54
-    [20:59:13.784]  Reply from: 142.250.185.68  fragment=True  bytes=1400  time=42ms  TTL=54
-    [20:59:15.836]  Reply from: 142.250.185.68  fragment=True  bytes=1400  time=42ms  TTL=54
-    [20:59:17.883]  Reply from: 142.250.185.68  fragment=True  bytes=1400  time=42ms  TTL=54
-    [20:59:19.930]  Reply from: 142.250.185.68  fragment=True  bytes=1400  time=42ms  TTL=54
+    [22-07-2022 14:36:21.635]  Reply from: 142.250.180.196  fragment=True  bytes=1400  time=49ms  TTL=110
+    [22-07-2022 14:36:23.692]  Reply from: 142.250.180.196  fragment=True  bytes=1400  time=49ms  TTL=110
+    [22-07-2022 14:36:25.758]  Reply from: 142.250.180.196  fragment=True  bytes=1400  time=49ms  TTL=110
+    [22-07-2022 14:36:27.828]  Reply from: 142.250.180.196  fragment=True  bytes=1400  time=49ms  TTL=110
+    [22-07-2022 14:36:29.894]  Reply from: 142.250.180.196  fragment=True  bytes=1400  time=49ms  TTL=110
     
-    Packets: sent - 5; Lost - 0 (0%); Traceroutes: 0; Avg.RTT: 42 ms; Unique IP addresses: 1
-    Used IP addresses: 142.250.185.68
+    Packets: sent - 5; Lost - 0 (0%); Traceroutes: 0; Avg.RTT: 49 ms; Unique IP addresses: 1
+    Used IP addresses: 142.250.180.196
 
 **Launched Interactively:**
 
